@@ -112,12 +112,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("Next ➡", callback_data=f"next_{req}_{key}_{n_offset}")]
             )
-    btn.insert(0,
-            [
-                InlineKeyboardButton(f'🎬 Movie', 'minfo'), 
-                InlineKeyboardButton(f'Series 📽️', 'sinfo')
-            ])
-
     btn.insert(0, [
         InlineKeyboardButton(text="ミ★ TECH MASTERZ ★彡", callback_data="techmasterz"),
     ])
@@ -925,12 +919,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages"),
              InlineKeyboardButton(text="Check PM", url=f"https://t.me/{temp.U_NAME}")]
-        )
-
-    btn.insert(0, [
-        InlineKeyboardButton(f🎬 Movie', 'minfo'),
-        InlineKeyboardButton(f'Series 📽️', 'sinfo')
-    ])
+        ) 
     btn.insert(0, [
         InlineKeyboardButton(text="ミ★ TECH MASTERZ ★彡", callback_data="techmasterz"),
     ])
