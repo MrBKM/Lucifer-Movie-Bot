@@ -37,11 +37,11 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
-@Client.on_message(filters.command(["song", "music", "mp3"]) & ~filters.channel & ~filters.edited)
+@Client.on_message(filters.command(["song", "music", "mp3"]) & ~filters.channel)
 def a(client, message: Message):
     urlissed = get_text(message)
     query = ''
-    reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
+    reply_id = message.reply_to_message.id if message.reply_to_message else message.id
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
