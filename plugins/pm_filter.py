@@ -375,7 +375,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel 📣', url='https://t.me/TechMasterz')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Time 🎬', url=f'https://t.me/+fhE3JgA0b4IyMDc1')
+                InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
             ]
             ]
 
@@ -429,7 +429,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel 📣', url='https://t.me/TechMasterz')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Time 🎬', url=f'https://t.me/+fhE3JgA0b4IyMDc1')
+                InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
             ]
             ]
         await query.answer()
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('📣 Updates', url='https://t.me/TechMasterz'),
-            InlineKeyboardButton('Movie Time 🎬', url='https://t.me/+foRsQQqEz7djNGU1')
+            InlineKeyboardButton('Film Zone 🎬', url='https://t.me/+FT4w2LunlOJhYzdl')
             ],[
             InlineKeyboardButton('❎ Close This Menu ❎', callback_data='close_data')
         ]]
