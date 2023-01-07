@@ -243,9 +243,9 @@ This module only works for my admins
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Film Zone First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
 
-**👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
+**👇 JOIN THIS GROUP & TRY AGAIN 👇**"""
 
     MEMES_TXT = """Help: <b>Memes</b>
 
