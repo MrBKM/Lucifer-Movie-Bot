@@ -396,3 +396,19 @@ Name - {}"""
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
 
     ALRT_TXT = """Hello {} This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TECH MASTERZ"""
+
+    CAPTION = """╭──[ミ★ TECH MASTERZ ★彡]──╮
+
+├• ✅ 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞 𝐈𝐬 𝐑𝐞𝐚𝐝𝐲
+
+├• 🎬 𝐓𝐢𝐭𝐥𝐞 : {file_name}
+
+├• 💾 𝐒𝐢𝐳𝐞 : {file_size}
+
+├• 🔘 𝐉𝐨𝐢𝐧 🎗 𝐒𝐡𝐚𝐫𝐞 🎗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
+
+├• 🔗 <a href="https://t.me/+FT4w2LunlOJhYzdl">𝑭𝒊𝒍𝒎 𝒁𝒐𝒏𝒆</a>
+
+├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 <a href="https://t.me/TGDragonIDM">𝑫𝒓𝒂𝒈𝒐𝒏</a>
+
+╰──────[ 👑 ]───────╯"""
