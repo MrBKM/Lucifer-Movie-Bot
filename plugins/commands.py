@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('📣 Updates', url='https://t.me/TechMasterz'),
-            InlineKeyboardButton('Movie Time 🎬', url='https://t.me/+foRsQQqEz7djNGU1')
+            InlineKeyboardButton('Film Zone 🎬', url='https://t.me/+FT4w2LunlOJhYzdl')
             ],[
             InlineKeyboardButton('❎ Close this Menu ❎', callback_data='close_data')
         ]]
@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📣 Join Updates Channel", url=invite_link.invite_link
+                    "🔗 Join Film Zone", url=invite_link.invite_link
                 )
             ]
         ]
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('📣 Updates', url='https://t.me/TechMasterz'),
-            InlineKeyboardButton('Movie Time 🎬', url='https://t.me/+foRsQQqEz7djNGU1')
+            InlineKeyboardButton('Film Zone 🎬', url='https://t.me/+FT4w2LunlOJhYzdl')
             ],[
             InlineKeyboardButton('❎ Close this Menu ❎', callback_data='close_data')
         ]]
@@ -254,7 +254,7 @@ async def start(client, message):
             InlineKeyboardButton('Channel 📣', url='https://t.me/TechMasterz')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Time 🎬', url=f'https://t.me/+fhE3JgA0b4IyMDc1')
+            InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
         ]
         ]
     await client.send_cached_media(
